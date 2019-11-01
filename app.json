@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/cart/cart",
+    "pages/category/category"
+  ],
+  "tabBar": {
+    "selectedColor": "#ff57777",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/assert/tabbar/home.png",
+        "selectedIconPath": "/assert/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "首页",
+        "iconPath": "/assert/tabbar/category.png",
+        "selectedIconPath": "/assert/tabbar/category_active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "首页",
+        "iconPath": "/assert/tabbar/cart.png",
+        "selectedIconPath": "/assert/tabbar/cart_active.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "小程序"
+  },
+  "sitemapLocation": "sitemap55.json"
+}
